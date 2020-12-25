@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  wave:
+  - apiVersion: v2
+    appVersion: v0.4.0
+    created: "2020-12-25T21:28:14.21694977Z"
+    description: wave chart that runs on kubernetes
+    digest: 8900e242e0d85c151528c5182863a28e12f29d6776f5be7525ed883d6ae3b516
+    home: https://github.com/wave-k8s/wave
+    keywords:
+    - wave
+    - kubernetes
+    maintainers:
+    - email: davidy@funkypenguin.co.nz
+      name: funkypenguin
+      url: https://www.funkypenguin.co.nz
+    name: wave
+    sources:
+    - https://github.com/wave-k8s/wave
+    urls:
+    - https://github.com/geek-cookbook/helm-wave/releases/download/wave-2.0.0/wave-2.0.0.tgz
+    version: 2.0.0
+generated: "2020-12-25T21:28:14.119964272Z"
