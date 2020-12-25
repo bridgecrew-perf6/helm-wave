@@ -1,0 +1,22 @@
+# This file sets some opinionated values for kube-score to use
+# when parsing the chart, while avoiding inflicting these opinions on chart users :)
+
+image:
+  pullPolicy: Always
+  
+resources:
+  requests: 
+    memory: 16Mi
+    cpu: 1m
+  limits:
+    memory: 32Mi
+    cpu: 100m
+
+podSecurityContext:
+  runAsUser: 65534
+  runAsGroup: 65534
+
+## User can override container securityContext below
+containerSecurityContext:
+  readOnlyRootFilesystem: true
+  privileged: false
